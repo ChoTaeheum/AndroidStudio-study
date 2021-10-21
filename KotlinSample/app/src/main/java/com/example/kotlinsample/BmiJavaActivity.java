@@ -1,6 +1,5 @@
 package com.example.kotlinsample;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
