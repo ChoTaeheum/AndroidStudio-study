@@ -11,10 +11,19 @@
         android:theme="@style/Theme.KotlinSample">
 
         <!-- Activity 의 label 은 기본 제목으로 사용됩니다. -->
+
+        <activity
+            android:name=".ControlKotlinActivity"
+            android:exported="false"
+            android:label="ControlKotlin" />
+        <activity
+            android:name=".ControlJavaActivity"
+            android:exported="false"
+            android:label="ControlJava" />
         <activity
             android:name=".VariableKotlinActivity"
             android:exported="false"
-            android:label="VariableKotlin"/>
+            android:label="VariableKotlin" />
         <activity
             android:name=".VariableJavaActivity"
             android:exported="false"

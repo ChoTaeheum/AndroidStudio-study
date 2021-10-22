@@ -35,5 +35,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, VariableKotlinActivity::class.java))
         }
 
+        // button5가 클릭된 경우의 이벤트 리스너 설정
+        button5.setOnClickListener {
+            // Intent로 ControlJavaActivity를 타겟으로 지정하고 startActivity로 실행
+            startActivity(Intent(this@MainActivity, ControlJavaActivity::class.java))
+        }
+
+        // button6이 클릭된 경우의 이벤트 리스너 설정
+        button6.setOnClickListener {
+            // Intent로 ControlKotlinActivity를 타겟으로 지정하고 startActivity로 실행
+            startActivity(Intent(this@MainActivity, ControlKotlinActivity::class.java))
+        }
+
     }
 }
