@@ -23,7 +23,6 @@ public class MainApplication extends Application {
 
         // static으로 선언된 applicationContext에 현재 실행중인
         // applicationContext로 바인딩한다.
-
         applicationContext = getApplicationContext();
     }
 }
