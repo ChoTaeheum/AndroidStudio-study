@@ -40,7 +40,7 @@ public class ControlJavaActivity extends AppCompatActivity {
                     ToastUtilJava.toastShort("" + number + " 는 3의 배수입니다.");
                 }
                 else {
-                    ToastUtilKotlinKt.toastShort("" + number);    // 코틀린 유틸함수
+                    ToastUtil.toastShort("" + number);    // 코틀린 유틸함수
                     }
 
                 // switch 문으로 체크 후 버튼의 텍스트를 변경한다.
