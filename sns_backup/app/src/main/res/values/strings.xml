@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sns</string>
+
+    <string name="naver_client_id">QOOuuBIcN9nkbqoYVSh1</string>
+    <string name="naver_client_secret">ntXeoqxKCO</string>
+    <string name="naver_client_name">naver_login</string>
+
+</resources>
